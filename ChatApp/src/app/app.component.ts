@@ -11,6 +11,6 @@ export class AppComponent {
   constructor(private authService:AuthService){}
 
   public signInWithGoogle(){
-    this.authService.signWithGoogle();
+    this.authService.signInWithGoogle();
   }
 }
